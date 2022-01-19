@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Знакомство с html тегами часть 3</title>
+</head>
+
+<body>
+	<form action="#" method="post" enctype="multipart/form-data">
+		<div>
+			<input type="text" name="username" value="" placeholder="Enter your name">
+		<!- For numeric imput change type parameter from "text" to "tel" ->
+		</div>
+		<br>
+		<div>
+			<input type="password" name="pass" value="" placeholder="Password">
+		</div>
+		<br>
+		<div>
+			<p><input type="radio" name="beer" value="lager" checked> Lager Beer </p>
+			<p><input type="radio" name="beer" value="dark"> Dark Beer </p>
+		</div>
+		<br>
+		<div>
+			<p><input type="checkbox" name="car" value="yes"> Delivery? </p>
+		</div>
+		<br>
+		<div>
+			<p>Photo <input type="file" name="photo"></p>
+		</div>
+		<br>
+		<div>
+			<textarea name="bigText"></textarea>
+		</div>
+		<br>
+		<div>
+			<select  name="color" id="">
+				<option value="red">Red</option>
+				<option value="blue">Blue</option>
+				<option disabled value="yellow">Yellow</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</div>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+div{
+
+}
+
+span{ /*for all <span> tags*/
+    font-size: 20px;
+    color: red;
+}
+
+.blue20{ /*for all tags with .blue20 class*/
+    color: blue;
+}
+
+p.blue20{ /*only for tags <p> with .blue20 class*/
+    color: black;
+}
+
+.blue20 span{ /*for all <span> tags inside tag with .blue20 class*/
+    color: green;
+}
+
+.black30>p{ /* for all <p> tags that are direct children only for tag with class .black30*/
+    font-size: 30px;
+
+}
